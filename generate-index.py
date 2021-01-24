@@ -3,6 +3,7 @@ import subprocess
 import unicodedata
 
 PDF_FILE_NAME = "../pramANa vachana sangraha v5 niruktarItyA padAnAM arthavivaraNam.pdf"
+MUTOOL_PATH="tools\\mutool-1.18.0.exe"
 PAGE_SHIFT=40
 
 san_letters = ['a', 'ā', 'i', 'ī', 'u', 'ū', 'ṛ', 'ṝ', 'e', 'ai', 'o', 'au', 'ṁ', 'ṃ', 'ḥ',
@@ -72,7 +73,7 @@ class Bookmark:
 
 def get_bookmarks_text(pdf_filename):
     result = subprocess.run(
-        ["tools\\mutool-1.18.0.exe", "show", pdf_filename, "outline"],
+        [MUTOOL_PATH, "show", pdf_filename, "outline"],
         capture_output=True,
         text=True,
         check=True,

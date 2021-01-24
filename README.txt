@@ -3,7 +3,8 @@ of "Pramana Vachana Sangrha". Generates two files:
 - index.txt (articles are in the PDF order)
 - index-sorted.txt (sanskrit alphabet order: a, ā, i, ī, etc)
 
-Tested on windows, shold work on any platform with trivial tool path fix.
+Tested on Windows, should work on any platform with trivial tool path
+fix (MUTOOL_PATH).
 
 Expectations:
 - "tools/mutool-1.18.0.exe" exists (from mupdf)
