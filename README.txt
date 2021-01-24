@@ -1,5 +1,5 @@
 Generates dictionary index from bookmarks in the PDF for the 5th volume
-of "Pramana Vachana Sangrha". Generates two files:
+of "Pramāṇa Vachana Saṅgraha". Generates two files:
 - index.txt (articles are in the PDF order)
 - index-sorted.txt (sanskrit alphabet order: a, ā, i, ī, etc)
 
